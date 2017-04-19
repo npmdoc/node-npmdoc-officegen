@@ -63,6 +63,24 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.officegen.officegen">
+            function <span class="apidocSignatureSpan"></span>officegen
+            <span class="apidocSignatureSpan">( options )</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.officegen.basicgen">
+            function <span class="apidocSignatureSpan">officegen.</span>basicgen
+            <span class="apidocSignatureSpan">( options )</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.officegen.docplug">
             function <span class="apidocSignatureSpan">officegen.</span>docplug
             <span class="apidocSignatureSpan">( genobj, genPrivate, docType, defValuesFunc )</span>
@@ -226,6 +244,52 @@
         <li>
 
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">officegen.</span>version</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.officegen.basicgen">module officegen.basicgen</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.officegen.basicgen.basicgen">
+            function <span class="apidocSignatureSpan">officegen.</span>basicgen
+            <span class="apidocSignatureSpan">( options )</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.officegen.basicgen.setVerboseMode">
+            function <span class="apidocSignatureSpan">officegen.basicgen.</span>setVerboseMode
+            <span class="apidocSignatureSpan">( new_state )</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">officegen.basicgen.</span>docType</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">officegen.basicgen.</span>plugins</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">officegen.basicgen.</span>schema</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">officegen.basicgen.</span>version</span>
 
         </li>
 
@@ -984,6 +1048,36 @@
 
 
     <h2>
+        <a href="#apidoc.element.officegen.officegen" id="apidoc.element.officegen.officegen">
+        function <span class="apidocSignatureSpan"></span>officegen
+        <span class="apidocSignatureSpan">( options )</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">officegen = function ( options ) {
+	return new officegen ( options );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.officegen.basicgen" id="apidoc.element.officegen.basicgen">
+        function <span class="apidocSignatureSpan">officegen.</span>basicgen
+        <span class="apidocSignatureSpan">( options )</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">basicgen = function ( options ) {
+	return new officegen ( options );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.officegen.docplug" id="apidoc.element.officegen.docplug">
         function <span class="apidocSignatureSpan">officegen.</span>docplug
         <span class="apidocSignatureSpan">( genobj, genPrivate, docType, defValuesFunc )</span>
@@ -1416,6 +1510,64 @@ officegen.<span class="apidocCodeKeywordSpan">setVerboseMode</span>(true);
 
 
 
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.officegen.basicgen" id="apidoc.module.officegen.basicgen">module officegen.basicgen</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.officegen.basicgen.basicgen" id="apidoc.element.officegen.basicgen.basicgen">
+        function <span class="apidocSignatureSpan">officegen.</span>basicgen
+        <span class="apidocSignatureSpan">( options )</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">basicgen = function ( options ) {
+	return new officegen ( options );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.officegen.basicgen.setVerboseMode" id="apidoc.element.officegen.basicgen.setVerboseMode">
+        function <span class="apidocSignatureSpan">officegen.basicgen.</span>setVerboseMode
+        <span class="apidocSignatureSpan">( new_state )</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function setVerboseMode( new_state ) {
+	officegenGlobals.settings.verbose = new_state;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```
+
+#### Debugging ####
+
+If needed, you can activate some verbose messages (warning: this does not cover all part of the lib yet) with :
+
+```js
+officegen.<span class="apidocCodeKeywordSpan">setVerboseMode</span>(true);
+```
+
+
+&#x3c;a name=&#x22;a6&#x22;&#x3e;&#x3c;/a&#x3e;
+
+## FAQ: ##
+...</pre></li>
+    </ul>
 
 
 
